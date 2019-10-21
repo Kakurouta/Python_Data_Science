@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 #finding p-values with scikit-learn
 from sklearn.feature_extraction import f_regression
 
-#feature scaling to range=[-1,1], average=0 and variation=1
+#feature scaling to normal distribution(central limit theorem) average=0 and variation=1
 from sklearn.preprocessing import StandardScaler
 
 #data with two colums: Performance and Price
