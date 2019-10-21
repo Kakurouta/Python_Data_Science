@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 #step1: read data
-raw_data = pd.read_csv('example.csv')
+raw_data = pd.read_csv('Example_LR.csv')
 raw_data.head() #use .head() to swiftly view top few data
 
 #step2: quick check and preprocessing
