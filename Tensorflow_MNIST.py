@@ -66,6 +66,7 @@ output_size = 10
 hidden_layer_size = 200
 
 #activation function: relu: f(x)=max(x,0), softmax:probabilities, used for classification
+#flatten: make(28,28,1) into (784,) vector
 model = tf.keras.Sequential([
                             tf.keras.layers.Flatten(input_shape=(28,28,1)),
                             tf.keras.layers.Dense(hidden_layer_size, activation='relu'),
